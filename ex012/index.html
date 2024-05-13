@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Din</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Aumente e diminua o tamanho da janela do navegador e veja a mágica acontecer. É sempre recomendado trabalhar com imagens que se adaptam ao tamanho da tela do usuário.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexível">
+    </picture>
+    <h1>Audios</h1>
+    <p>Vamos aprender reproduzir audios em HTML5</p>
+    <h3>Forma básica</h3>
+    <audio src="midia/speak-the-truth.mp3" controls autoplay></audio>
+    <h3>Forma completa</h3>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/speak-the-truth.mp3" type="audio/mpeg">
+        <source src="midia/speak-the-truth.ogg" type="audio/ogg">
+        <source src="midia/speak-the-truth.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não é compatível! <a href="midia/speak-the-truth.mp3">Clique aqui</a> para baixar o áudio.</p>
+    </audio>
+</body>
+</html>

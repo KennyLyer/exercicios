@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "courgette";
+    src: url('fonts/Courgette-Regular.ttf') format('truetype');
+}
+
+body {
+    background-image: linear-gradient(to top, #0037ad, #5f91ff, #2dd89f);
+    background-attachment: fixed;
+    color: white;
+}
+
+h1 {
+    color: rgb(225, 0, 255);
+    font-size: 30px;
+}
+
+#n1t1 {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 255, 90);
+    background-color: #1b48aa;
+}
+
+#p1 {
+    font-family: courgette;
+}
+
+.impar {
+    font-family: courgette;
+}
+
+.par {
+    color: #2dd89f;
+}
