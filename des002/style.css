@@ -41,7 +41,6 @@ header {
 
 header > p {
     max-width: 450px;
-    margin: auto;
     padding-bottom: 40px;
     font-size: 17px;
     text-align: center;
@@ -84,6 +83,7 @@ h1 {
     font-family: var(--font-emph);
     font-size: 40px;
     padding: 20px;
+    text-align: center;
 }
 
 h2 {
