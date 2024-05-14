@@ -33,6 +33,8 @@ header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     margin: auto;
     min-height: 150px;
+    max-width: 1920px;
+    min-width: 1280px;
     color: white;
     text-align: center;
     padding-top: 10px;
