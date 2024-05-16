@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('imagens/wallpaper001.jpg');
+}
+
+h1 {
+    color: aqua;
+}
