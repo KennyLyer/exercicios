@@ -21,28 +21,49 @@ h1 {
 
 main {
     margin: 0;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 section {
     margin: 0;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #paralax1 {
-    background-image: ;
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    color: white;
 }
 
 #paralax2 {
-
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    color: white;
 }
 
-pre {
-    background-color: rgba(0, 0, 0, 0.158);
+section#paralax1 > pre {
+    background-color: rgba(0, 0, 0, 0.404);
     max-width: 350px;
     margin: 0;
     padding: 0;
     padding-top: 10px;
+}
+
+section#paralax2 > pre {
+    background-color: rgba(0, 0, 0, 0.404);
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.backwhite {
+    margin: 0;
+    padding: 0;
 }
 
 footer {
