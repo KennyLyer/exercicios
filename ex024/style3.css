@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+td {
+    border: 1px solid black;
+    min-width: 60px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+th {
+    border: 1px solid black;
+    min-width: 60px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

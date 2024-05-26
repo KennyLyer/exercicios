@@ -44,6 +44,7 @@ th {
 td {
     border: 1px solid black;
     padding: 3px 0px;
+    min-width: 100px;
 }
 
 tfoot {
